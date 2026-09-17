@@ -1,0 +1,26 @@
+{
+  "skill_name": "idea-vetting",
+  "evals": [
+    {
+      "id": 1,
+      "name": "vet-reinvent-wheel-idea",
+      "prompt": "我在想要不要自己写一个 Markdown 转微信公众号排版的工具，把我们团队沉淀的技术文档一键发到公众号。这个想法靠谱吗？有没有人做过的？帮我评估一下。",
+      "expected_output": "AI 按 5 步体检循环输出『想法体检报告』：FRAME 压出可证伪主张；RECON 真实检索（带真实 URL，覆盖开源/商业/社区），定位成熟度档位并声明检索盲区；THEORY 给支持/反对依据；STRESS 1-3 条锋利攻击；VERDICT 四选一判决 + 最值钱的一步 + ≤1天验证 + 放弃信号。判决大概率倾向'采纳现成方案/改造'而非自研。不得编造链接，不得以'值得思考'收尾。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "vet-frontier-idea",
+      "prompt": "我想做一个东西：让 AI 自动读我们的 CI 失败日志，直接生成修复 PR。不知道这个方向有没有人做过、成不成熟，你帮我看看可行性，有没有最佳实践或理论支持。",
+      "expected_output": "AI 输出完整体检报告，RECON 真实检索（如已有同类开源项目/商业产品/论文），成熟度定位给出依据；判决允许是 🧪 先验证，但必须附具体便宜实验（≤1天、验证哪条主张）和放弃信号；报告区分事实与推理。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "negative-decided-task-no-vetting",
+      "prompt": "用 pandoc 把 docs/ 下所有 .md 转成 PDF，直接开始。",
+      "expected_output": "AI 不输出体检报告、不发起检索评估，直接执行任务。本 Skill 对'用户已决定只要执行'的场景应放行（不触发）。",
+      "files": []
+    }
+  ]
+}
