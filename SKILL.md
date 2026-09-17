@@ -1,6 +1,11 @@
 ---
 name: idea-vetting
 version: 1.0.0
+slug: idea-vetting
+displayName: 想法体检——可行性与已有实践评估
+summary: 投资一个想法之前先做体检：压成可证伪主张→真实检索谁在做/成不成熟/有无最佳实践与理论支持→拷问假设→给出采纳/改造/先验证/放弃的判决，附最便宜验证与放弃信号。触发词：这个想法靠谱吗、有没有人做过、帮我评估可行性、别让我重复造轮子。
+tags: [方法论, 可行性评估, 调研, 决策]
+license: MIT
 description: "Vet an idea before investing time or money: restate it as falsifiable claims, search outward for prior art (who is already doing it — open source, commercial, papers, community practice), locate best practices and theoretical support, stress-test its assumptions, and deliver a feasibility verdict — adopt existing practice, amend, validate cheaply, or kill it. 触发：这个想法靠谱吗、有没有人做过、有没有最佳实践、有没有理论支持、帮我评估一下这个想法、可行性怎么样、别让我重复造轮子、is this a good idea、has anyone done this、vet this idea。区别于 grill-method（纯内部推理审'已选方法是否最优'）：本 Skill 面向尚未验证的新想法，核心动作是向外检索证据；区别于 grill-me（审需求边界）。"
 ---
 
